@@ -241,8 +241,11 @@ a:focus {
 }
 }
 .main_menu_inner{
+  margin-top: -20px;
+  margin-bottom: -10px;
   @media (max-width: 1530px) {
-    margin-top: 0px;
+    margin-top: -25px;
+    margin-bottom: -15px;
   }
 }
 .main_menu{
@@ -912,7 +915,7 @@ ul {
   animation-fill-mode: none;
   animation-play-state: running;
   @media (max-width: 1300px) {
-    padding: 5px;
+    padding: 3px;
     height: 50px;
 }
 }
@@ -922,6 +925,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 2px;
 }
 
 .header_black .sticky-header.sticky {
@@ -3038,7 +3042,9 @@ p {
 }
 .header{
   display: flex;
+  padding: 0px;
   justify-content:space-between;
+  margin-bottom: -20px;
 }
 .icons{
   display: flex;
